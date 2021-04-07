@@ -1,0 +1,62 @@
+$primarycolor: #FF9292;
+$secondarycolor: #aee1e1;
+$fontfamily:'Lato', sans-serif;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width:575px){
+    .navbar
+    .cart {
+        display: none;
+    }
+}
+
+.header *{
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: $fontfamily;
+}
+
+.header{
+    
+    img{
+        position: relative;
+        width:50px ;
+        margin-left: 100px;
+        height: 100%;
+    } 
+        .logo{ 
+            width: 20%;
+    }  
+            .navbar{
+                width: 60%;
+                text-align: center;
+                font-weight: 500;
+            }  
+                .cart{
+                    width: 20%;
+                    text-align: right;
+                    font-weight: 600;
+                    text-decoration: none;
+                } 
+}
+
+
+.cart{
+    img{
+        position: relative;
+        width: 21px;
+    
+    }
+}
