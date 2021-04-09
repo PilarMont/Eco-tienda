@@ -8,38 +8,82 @@
     <link rel="stylesheet" href="Styles/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/491c90bb90.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="fixed-header">
         <header class="header">
 <!-- Logo con link a la página principal -->
-            <a href="/" class="logo">
-                <img src="/assets/imags/leaf-logo.png" alt="Logomareas">
-            </a>
-<!-- Menú de navegación --> 
             <nav class="navbar">
-                <ul class="menu">
-                    <li class="menu-item">Eco-tienda</li>
-                    <li class="menu-item">Sobre nosotros</li>
-                    <li class="menu-item">Contacto</li>
-                    <li class="menu-item">Preguntas Frecuentes</li>
+                <a class="logo" href="/" >
+                    <img src="/assets/imags/leaf-logo.png" alt="Logomareas">
+                </a>
+<!-- Menú de navegación -->                
+                 <ul class="menu">
+                     <a class="menu-item" href="#"> Eco-tienda</a>
+                     <a class="menu-item" href="#"> Sobre nosotros</a>
+                     <a class="menu-item" href="#"> Contacto</a>
+                     <a class="menu-item" href="#"> Preguntas Frecuentes</a> 
                 </ul>
-<!-- Contenedor de acciones de usuario -->
-            <div class="cart">
-                 <a href="" title="cesta">Cesta
-                     <img src="https://www.flaticon.es/svg/vstatic/svg/3142/3142490.svg?token=exp=1617767075~hmac=bbdab48ef8265a3a9fbad868bb434408" alt="">
-                 </a> 
-            </div>
-
-
-            </nav>
-
-
+                <div class="cart" >
+                    <a href="#"> Cesta <img src="https://www.flaticon.es/svg/vstatic/svg/3142/3142490.svg?token=exp=1617767075~hmac=bbdab48ef8265a3a9fbad868bb434408" alt=""></a></li>
+               </div>
+<!-- Contenedor de acciones de usuario --> 
+            <span class="btn-menu"></span>
+                <i class="fas fa-bars"></i>
+            </nav>       
         </header>
-
-
     </section>
+
+    <main class="main">
+        <h1>¡Hola!</h1>
+        <figure class="ecoimg">
+            <img src="/assets/imags/Productis ecoo.jpg" alt="">
+        </figure>
+        <section class="sabias">
+            <h3>¿Sabías qué?</h3>
+        </section>
+    </main>
+
+    <section class="container-card">
+        <article class="fact-card">
+            <div class="card-image">
+                    <img src="https://foodandtravel.mx/wp-content/uploads/2020/07/Bolsas-de-plastico-mar.jpg" alt="ocean-plastic">
+                <h4>En todo el mundo, el 73 por ciento de la basura de las playas es plástico: filtros de colillas de cigarrillos, botellas, tapones, envoltorios, bolsas de la compra y recipientes de poliestireno.</h4>
+        </article>
+        <article class="fact-card">
+            <div class="card-image">
+                <figure>
+                    <img src="https://stopcambioclimatico.azurewebsites.net/wp-content/uploads/2018/03/WEB_PHOTO_TRASH_ISLAND_24112017.jpg" alt="trash-island">
+                </figure>
+                <h4>Para 2050, casi todas las especies de aves marinas del planeta comerán plástico.</h4>
+            </div>               
+        </article>
+        <article class="fact-card">
+            <div class="card-image">
+            <figure>
+                <img src="https://www.ngenespanol.com/wp-content/uploads/2018/08/Casi-todas-las-aves-marinas-del-mundo-comen-pl%C3%A1stico.jpg" alt="birds-plastic">
+            </figure>
+            <h4>Más del 40 por ciento del plástico se usa una sola vez y se tira.</h4>
+            </div>
+        </article>
+        <article class="fact-card">
+            <div class="card-image">
+                <figure>
+                    <img src="https://competiciongp14.es/wp-content/uploads/2019/12/Degradado-el-plastico-777x437.jpg" alt="plastic-polition">
+                </figure>
+                <h4>Estos son algunos aterradores datos de nuestra realida. Tu puedes hacer un cambio con lo que consumes.</h4>
+            </div>
+        </article>
+    </section>
+
+
+    <footer class="footer">
+        <a href="#">Tienda Eco</a>
+        <a href="#"> Indormación</a>
+        <a href="#">Tienda</a>
+        <a href="#">Contacta Aquí</a>
+    </footer>
     
 </body>
 </html>
